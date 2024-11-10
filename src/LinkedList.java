@@ -49,11 +49,10 @@ class LinkedList {
 
 
     // traversal method
-    public void traverse ()
-    {
+    public void traverse () {
         Node y = head;
-        while (y.next !=null)
-        {System.out.println (y.data);
+        while (y.next !=null) {
+            System.out.println (y.data);
             y = y.next; // move to the next node
         }
         System.out.println("Tail node: "+ y.data);
