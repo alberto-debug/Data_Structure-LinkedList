@@ -22,7 +22,6 @@ class LinkedList {
         }
     }
 
-
     // insert node at the start
     public void insertAtStart(int z)
     {Node g = new Node();
