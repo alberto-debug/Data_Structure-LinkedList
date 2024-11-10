@@ -5,6 +5,7 @@ class LinkedList {
     // insert elements into
     public void insert (int x)
     {
+
 // create an object of class Node
         Node newnode = new Node();
         newnode.data = x;
