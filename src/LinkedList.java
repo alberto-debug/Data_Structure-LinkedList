@@ -3,8 +3,7 @@ class LinkedList {
     Node head; // first node
 
     // insert elements into
-    public void insert (int x)
-    {
+    public void insert (int x) {
 
 // create an object of class Node
         Node newnode = new Node();
