@@ -9,6 +9,9 @@ class LinkedList {
         Node newnode = new Node();
         newnode.data = x;
         newnode.next = null;
+        //if (head == null) verifica se a lista está vazia (ou seja, se o head é null).
+        //Se estiver vazia, significa que este será o primeiro nó da lista, então head = newnode; define o
+        // head para apontar para o newnode, tornando-o o primeiro (e único) nó da lista.
         if (head == null) {
             head = newnode;
         } else {
