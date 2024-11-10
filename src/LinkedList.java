@@ -10,8 +10,8 @@ class LinkedList {
         Node newnode = new Node();
         newnode.data = x;
         newnode.next = null;
-        if (head == null)
-        {head = newnode;}
+        if (head == null) {
+            head = newnode;}
         else
         {
             Node n = head;
