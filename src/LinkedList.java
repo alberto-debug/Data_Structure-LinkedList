@@ -1,5 +1,7 @@
 class LinkedList {
+
     Node head; // first node
+
     // insert elements into
     public void insert (int x)
     {
@@ -20,6 +22,7 @@ class LinkedList {
         }
     }
 
+
     // insert node at the start
     public void insertAtStart(int z)
     {Node g = new Node();
@@ -27,6 +30,8 @@ class LinkedList {
         g.next = head;// pointing to the current head node
         head =g;
     }
+
+
     // inserting at a specific position
     public void insertAtIndex(int pos, int p)
     {
@@ -41,6 +46,8 @@ class LinkedList {
 //new node to point to node at pos+1
         k.next = newnode;
     }
+
+
     // traversal method
     public void traverse ()
     {
@@ -51,6 +58,8 @@ class LinkedList {
         }
         System.out.println("Tail node: "+ y.data);
     }
+
+
     // delete a node at index position
     public void deleteAtIndext(int pos)
     {
@@ -69,4 +78,6 @@ class LinkedList {
             System.out.println("The node to be deleted ="+ b.data);
         }
     }
+
+
 }
